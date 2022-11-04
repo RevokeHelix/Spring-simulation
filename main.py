@@ -59,7 +59,7 @@ class Player(pygame.sprite.Sprite):
         YValueText = str(550-player.rect.y)
         Yvalue = font.render(YValueText, False, green, white)
 
-# Initialize pygame
+# Initialize pygame sd
 pygame.init()
 
 # Create the screen object
